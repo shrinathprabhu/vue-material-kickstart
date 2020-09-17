@@ -4,8 +4,6 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cypress/base:8
-      - image: cypress/browsers
       - image: circleci/node:12.14.0
     steps:
       - checkout
@@ -14,7 +12,7 @@ jobs:
             - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
             - node-v1-{{ .Branch }}-
             - node-v1-
-      - run: npm ci
+      - run: npm install
       - save_cache:
           paths:
             - ~/usr/local/lib/node_modules
