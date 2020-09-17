@@ -1,8 +1,8 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe('My First Test', () => {
+describe('Fetch heading in Appbar', () => {
   it('Visits the app root url', () => {
-    cy.visit('/')
-    cy.contains('h1', 'Welcome to Your Vue.js App')
-  })
-})
+    cy.visit('/');
+    cy.contains('h2', 'Vue Material Kickstart');
+  });
+});

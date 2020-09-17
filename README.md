@@ -24,9 +24,19 @@ npm start
 npm run build
 ```
 
-### Run e2e (End to End) tests (With e2e-cypress)
+### Run e2e (End to End) tests in Chrome browser with UI (With e2e-cypress)
 ```
 npm run test:e2e
+```
+
+### Run e2e tests in headless Electron browser (With e2e-cypress. Videos of tests are stored in tests/e2e/videos)
+```
+npm run test:e2e:headless
+```
+
+### Run e2e tests in headless Chrome browser (With e2e-cypress. Videos of tests are stored in tests/e2e/videos)
+```
+npm run test:e2e:chrome
 ```
 
 ### Run unit tests (With jest)

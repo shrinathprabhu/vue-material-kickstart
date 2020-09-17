@@ -7,7 +7,9 @@
     "start": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:e2e": "vue-cli-service test:e2e",
+    "test:e2e": "vue-cli-service test:e2e -b",
+    "test:e2e:headless": "vue-cli-service test:e2e --headless",
+    "test:e2e:headless:chrome": "vue-cli-service test:e2e -b chrome --headless",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
