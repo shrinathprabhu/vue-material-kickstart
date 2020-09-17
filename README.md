@@ -1,6 +1,10 @@
 # vue-material-kickstart
 
-## Project setup
+A simple vue kickstarter with pre-installed **[Vuetify](https://vuetifyjs.com/en/)** for material design components, **[Vue-Router](https://router.vuejs.org/)** for routing between different components, **[Vuex](https://vuex.vuejs.org/)** for state management through multiple components, **[Vue-Meta](https://www.npmjs.com/package/vue-cli-plugin-meta)** for dynamically handling meta tags for different components, **[Axios](https://www.npmjs.com/package/vue-cli-plugin-axios)** for handling ajax requests or fetching data from API endpoints, **[E2E-Cypress](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress)** for end to end testing of UI and **[Jest](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest)** for unit testing and integration testing.
+
+This kickstarter is compatible with vue-cli and you can add or remove plugins and dependencies using the same
+
+### Install dependencies (Project Setup)*
 ```
 npm install
 ```
@@ -8,6 +12,11 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+```
+
+### Compiles and launches in browser + hot-reloads for development
+```
+npm start
 ```
 
 ### Compiles and minifies for production
@@ -23,6 +32,20 @@ npm run test
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+## Vue-cli
+If you want to use vue-cli for this project, make sure vue-cli is installed in your system. Steps for installing and upgrading vue-cli can be found [here](https://cli.vuejs.org/guide/installation.html). Check if vue-cli is properly installed using `vue --version`
+
+### Add a plugin/ dependency (package) using vue-cli
+```
+vue add <package-name>
+```
+**Note**: Packages can also be added using vue-ui
+
+### Launch vue ui for configuration of app and installation of packages
+```
+vue ui
 ```
 
 ### Customize configuration
