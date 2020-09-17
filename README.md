@@ -36,7 +36,7 @@ npm run test:e2e:headless
 
 ### Run e2e tests in headless Chrome browser (With e2e-cypress. Videos of tests are stored in tests/e2e/videos)
 ```
-npm run test:e2e:chrome
+npm run test:e2e:headless:chrome
 ```
 
 ### Run unit tests (With jest)
