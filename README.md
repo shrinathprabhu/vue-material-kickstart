@@ -4,7 +4,19 @@
 [![Coverage Status](https://coveralls.io/repos/github/shrinathprabhu/vue-material-kickstart/badge.svg?branch=master)](https://coveralls.io/github/shrinathprabhu/vue-material-kickstart?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/18f32c6434407224ede9/maintainability)](https://codeclimate.com/github/shrinathprabhu/vue-material-kickstart/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
-[![Code Climate issues](https://img.shields.io/codeclimate/issues/shrinathprabhu/vue-material-kickstart)](https://img.shields.io/codeclimate/issues/shrinathprabhu/vue-material-kickstart)
+![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/shrinathprabhu/vue-material-kickstart)
+![Code Climate issues](https://img.shields.io/codeclimate/issues/shrinathprabhu/vue-material-kickstart)
+![GitHub top language](https://img.shields.io/github/languages/top/shrinathprabhu/vue-material-kickstart)
+![GitHub](https://img.shields.io/github/license/shrinathprabhu/vue-material-kickstart)
+![Gitter](https://img.shields.io/gitter/room/shrinathprabhu/vue-material-kickstart)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
 
 A simple vue kickstarter with pre-installed **[Vuetify](https://vuetifyjs.com/en/)** for material design components, **[Vue-Router](https://router.vuejs.org/)** for routing between different components, **[Vuex](https://vuex.vuejs.org/)** for state management through multiple components, **[Vue-Meta](https://www.npmjs.com/package/vue-cli-plugin-meta)** for dynamically handling meta tags for different components, **[Axios](https://www.npmjs.com/package/vue-cli-plugin-axios)** for handling ajax requests or fetching data from API endpoints, **[E2E-Cypress](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress)** for end to end testing of UI and **[Jest](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest)** for unit testing and integration testing.
 
