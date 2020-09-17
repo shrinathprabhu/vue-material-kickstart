@@ -24,3 +24,6 @@ pnpm-debug.log*
 
 # Ignore cypress headless videos
 tests/e2e/videos/
+
+# Ignore coverage
+coverage/

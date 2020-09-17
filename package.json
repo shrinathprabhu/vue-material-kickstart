@@ -10,7 +10,7 @@
     "test:e2e": "vue-cli-service test:e2e -b",
     "test:e2e:headless": "vue-cli-service test:e2e --headless",
     "test:e2e:headless:chrome": "vue-cli-service test:e2e -b chrome --headless",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit --coverage=true --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "core-js": "^3.6.5",
