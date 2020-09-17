@@ -1,5 +1,8 @@
 # Vue Material Kickstart
 
+[![CircleCI](https://circleci.com/gh/shrinathprabhu/vue-material-kickstart.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![Maintainability](https://api.codeclimate.com/v1/badges/18f32c6434407224ede9/maintainability)](https://codeclimate.com/github/shrinathprabhu/vue-material-kickstart/maintainability)
+
 A simple vue kickstarter with pre-installed **[Vuetify](https://vuetifyjs.com/en/)** for material design components, **[Vue-Router](https://router.vuejs.org/)** for routing between different components, **[Vuex](https://vuex.vuejs.org/)** for state management through multiple components, **[Vue-Meta](https://www.npmjs.com/package/vue-cli-plugin-meta)** for dynamically handling meta tags for different components, **[Axios](https://www.npmjs.com/package/vue-cli-plugin-axios)** for handling ajax requests or fetching data from API endpoints, **[E2E-Cypress](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress)** for end to end testing of UI and **[Jest](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest)** for unit testing and integration testing.
 
 This kickstarter is compatible with vue-cli and you can add or remove plugins and dependencies using the same. Also there is fade transition added to router-view by default in src/App.vue for smooth transition between different pages
