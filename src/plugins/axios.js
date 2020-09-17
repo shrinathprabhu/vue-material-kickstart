@@ -56,6 +56,6 @@ Plugin.install = function (Vue) {
   });
 };
 
-Vue.use(Plugin)
+Vue.use(Plugin);
 
 export default Plugin;
