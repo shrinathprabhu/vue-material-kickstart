@@ -53,5 +53,10 @@ vue add <package-name>
 vue ui
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Other Stuffs
+
+### 1) [Better Practices](https://github.com/shrinathprabhu/vue-material-kickstart/blob/master/Better-practices.md)
+
+### 2) [Customize configuration](https://cli.vuejs.org/config/).
+
+### 3) Consider contributing and improving this kickstarter

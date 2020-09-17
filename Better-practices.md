@@ -1,4 +1,4 @@
-# Better Practices
+# Better Practices (Contribute some more better or even best practices if you know)
 
 1) It is recommended to use `vue ui` to add or remove plugins, dependencies and other packages that are available in vue as it configures most of the setup out of the box. You can also use vue-cli commands like `vue add <package-name>` or `vue remove <package-name>` 
 
