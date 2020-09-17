@@ -7,6 +7,7 @@ jobs:
       - image: circleci/node:12.14.0
     steps:
       - checkout
+      - run: cypress cache clear
       - restore_cache:
           keys:
             - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
