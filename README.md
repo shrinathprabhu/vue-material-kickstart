@@ -47,6 +47,11 @@ npm run test:e2e:headless:chrome
 npm run test:unit
 ```
 
+### Report coverage
+```
+npm run coverage:report
+```
+
 ### Lints and fixes files
 ```
 npm run lint

@@ -10,7 +10,8 @@
     "test:e2e": "vue-cli-service test:e2e -b",
     "test:e2e:headless": "vue-cli-service test:e2e --headless",
     "test:e2e:headless:chrome": "vue-cli-service test:e2e -b chrome --headless",
-    "test:unit": "vue-cli-service test:unit --coverage=true --forceExit --detectOpenHandles"
+    "test:unit": "vue-cli-service test:unit --coverage=true --forceExit --detectOpenHandles",
+    "coverage:report": "coveralls < ./coverage/lcov.info"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -28,6 +29,7 @@
     "@vue/test-utils": "^1.0.3",
     "axios": "^0.18.0",
     "babel-eslint": "^10.1.0",
+    "coveralls": "^3.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.3.0",

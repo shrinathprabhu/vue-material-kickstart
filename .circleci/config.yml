@@ -18,3 +18,4 @@ jobs:
             - ~/usr/local/lib/node_modules
           key: node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run test:unit
+      - run: npm run coverage:report
