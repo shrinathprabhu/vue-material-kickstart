@@ -13,14 +13,14 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
 
 A simple vue kickstarter with pre-installed **[Vuetify](https://vuetifyjs.com/en/)** for material design components, **[Vue-Router](https://router.vuejs.org/)** for routing between different components, **[Vuex](https://vuex.vuejs.org/)** for state management through multiple components, **[Vue-Meta](https://www.npmjs.com/package/vue-cli-plugin-meta)** for dynamically handling meta tags for different components, **[Axios](https://www.npmjs.com/package/vue-cli-plugin-axios)** for handling ajax requests or fetching data from API endpoints, **[E2E-Cypress](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress)** for end to end testing of UI and **[Jest](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest)** for unit testing and integration testing.
 
-This kickstarter is compatible with vue-cli and you can add or remove plugins and dependencies using the same. Also there is fade transition added to router-view by default in src/App.vue for smooth transition between different pages
+This kickstarter is compatible with vue-cli and you can add or remove plugins and dependencies using the same. Also there is fade transition added to router-view by default in src/App.vue for smooth transition between different pages. Also contains precommit and prepush hooks with husky, that checks for all the test cases before committing or pushing the code. You can remove those hooks from package.json if you don't want those annoying hooks
 
 ### Install dependencies (Project Setup)*
 ```
