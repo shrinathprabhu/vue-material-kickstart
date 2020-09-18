@@ -5,8 +5,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/18f32c6434407224ede9/maintainability)](https://codeclimate.com/github/shrinathprabhu/vue-material-kickstart/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/shrinathprabhu/vue-material-kickstart)
-![Code Climate issues](https://img.shields.io/codeclimate/issues/shrinathprabhu/vue-material-kickstart)
-![GitHub top language](https://img.shields.io/github/languages/top/shrinathprabhu/vue-material-kickstart)
 ![GitHub](https://img.shields.io/github/license/shrinathprabhu/vue-material-kickstart)
 ![Gitter](https://img.shields.io/gitter/room/shrinathprabhu/vue-material-kickstart)
 
